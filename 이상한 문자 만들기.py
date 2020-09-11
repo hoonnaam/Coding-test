@@ -14,6 +14,6 @@ def solution(s):
             n += 1
     return c_word
 
-string = "try  hello world"
+string = "try  hello   darK world"
 
 print(solution(string))
