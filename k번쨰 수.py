@@ -12,4 +12,6 @@ def solution(array, commands):
     return answer
 
 
-solution([2, 6, 7, 8, 4, 5, 1], [[1, 2, 1], [7, 7, 1], [3, 4, 2]])
+Oth = solution([2, 6, 7, 8, 4, 5, 1], [[1, 2, 1], [7, 7, 1], [3, 4, 2]])
+
+print(Oth)
