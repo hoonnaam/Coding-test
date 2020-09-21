@@ -6,5 +6,6 @@ def solution(arr):
     return arr
 arry = [10,6,8,5,2,3]
 print(solution(arry))
+
 arry = [1000000000]
 print(solution(arry))

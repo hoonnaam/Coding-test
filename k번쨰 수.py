@@ -1,13 +1,12 @@
 def solution(array, commands):
     answer = []
-    for i in range(3):
-        seq = commands[i]
-        # 1번 항목
-        new_array = array[seq[0] - 1:seq[1]]
-        # 2번 항목
+    for i in commands:
+        # 1번 항목 - 슬라이스
+        new_array = array[i[0] - 1:i[1]]
+        # 2번 항목 - 정렬
         new_array.sort()
-        # 3번 항목
-        answer.append(new_array[seq[2] - 1])
+        # 3번 항목 - 리스트 삽입
+        answer.append(new_array[i[2] - 1])
 
     return answer
 
