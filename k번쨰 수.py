@@ -5,7 +5,7 @@ def solution(array, commands):
         new_array = array[i[0] - 1:i[1]]
         # 2번 항목 - 정렬
         new_array.sort()
-        # 3번 항목 - 리스트 삽입
+        # 3번 항목 - 인덱싱
         answer.append(new_array[i[2] - 1])
 
     return answer
