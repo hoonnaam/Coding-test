@@ -7,8 +7,8 @@ def solution(arr):
 
         # 연속적 수가 일 경우 인덱싱
         else:
-            if arr[idx] == arr[idx+1]:
-                answer.remove(number)
+            if arr[idx] != arr[idx+1]:
+                answer.append(number)
 
         print(answer)
 
