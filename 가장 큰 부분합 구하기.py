@@ -4,8 +4,7 @@ def maxSubArray(nums):
     # 반복문을 통해 슬라이싱
     for n in range(len(nums)):
         for p in range(len(nums)):
-            result.append(sum(nums[n:p + 1]))
-
+            result.append(sum(nums[n:p + 1])
     return max(result)
 
 
