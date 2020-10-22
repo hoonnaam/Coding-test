@@ -5,7 +5,7 @@ def moveZerosToEnd(nums):
         nums.remove(0)
         # 0인 인덱스 삽입
         nums.append(0)
-
+GIT
     return nums
 
 
