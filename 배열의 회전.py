@@ -1,7 +1,8 @@
 # 이 함수를 수정 해 주세요.
 def rotateArray(nums, k):
-    return nums[len(nums) - k:] + nums[:len(nums) - k]
+    # return nums[len(nums) - k:] + nums[:len(nums) - k]
 
+    partialReverse()
 
 # 다음 함수는 추가적인 공간 사용 없이 배열의 일부를 뒤집어 주는 함수입니다.
 # 예를 들어, nums = [1,2,3,4,5]
