@@ -24,12 +24,6 @@ def getMaxSum(numData): # 요구 사항에 맞춰 처리된 2차원 정수 배�
     maxSum = 0 # 최대합
 
     ###########   여기부터 코딩 (2) ---------------->
-    for i in range(ARRAY_LENGTH-1) :
-        for k in range(ARRAY_LENGTH-1) :
-            hap = numData[i][k] + numData[i+1][k] \
-                  + numData[i][k+1] + numData[i+1][k+1] ;
-            if hap > maxSum :
-                maxSum = hap
 
 
 
